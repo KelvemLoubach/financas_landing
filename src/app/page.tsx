@@ -198,13 +198,24 @@ export default function Home() {
             Curso Exclusivo
           </Badge>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent drop-shadow-lg animate-title-glow">
-            TRANSFORME SUA REALIDADE FINANCEIRA
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto drop-shadow-md animate-fade-in-up">
-            Domine o mercado financeiro e construa a vida dos seus sonhos.
-          </p>
+         <h1 className="
+  text-2xl sm:text-3xl md:text-5xl lg:text-7xl
+  font-bold mb-4 sm:mb-6
+  bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent
+  drop-shadow-lg animate-title-glow
+">
+  TRANSFORME SUA REALIDADE FINANCEIRA
+</h1>
+
+<p className="
+  text-base sm:text-lg md:text-xl lg:text-2xl
+  text-gray-300 mb-6 sm:mb-8
+  max-w-2xl sm:max-w-3xl mx-auto
+  drop-shadow-md animate-fade-in-up
+">
+  Domine o mercado financeiro e construa a vida dos seus sonhos.
+</p>
+
 
           {/* Social Proof Bar */}
           <div className="flex items-center justify-center gap-4 mb-8 animate-fade-in-up-delayed">
@@ -229,13 +240,19 @@ export default function Home() {
 
           {/* CTA Button with Urgency */}
           <div className="flex items-center justify-center gap-4 animate-fade-in-up-more-delayed">
-            <Button 
-              size="lg" 
-              className="bg-green-500 hover:bg-green-600 text-black font-bold text-lg px-8 py-4 rounded-full shadow-lg shadow-green-500/25 hover:shadow-green-500/40 transition-all duration-300 transform hover:scale-105 backdrop-blur-sm animate-pulse-button"
-            >
-              QUERO ME TORNAR UM INVESTIDOR
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
+            <Button
+  size="lg"
+  className="
+    bg-green-500 hover:bg-green-600 text-black font-bold
+    text-base sm:text-lg
+    px-4 py-2 sm:px-8 sm:py-4
+    rounded-full
+    whitespace-nowrap
+  "
+>
+  QUERO ME TORNAR UM INVESTIDOR
+  <ArrowRight className="ml-2 w-5 h-5" />
+</Button>
             <Badge className="bg-red-500 text-white px-3 py-1 rounded-full animate-pulse backdrop-blur-sm">
               Últimas Vagas!
             </Badge>
@@ -399,13 +416,19 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <Button 
-              size="lg" 
-              className="bg-green-500 hover:bg-green-600 text-black font-bold text-lg px-8 py-4 rounded-full shadow-lg shadow-green-500/25 hover:shadow-green-500/40 transition-all duration-300 transform hover:scale-105"
-            >
-              QUERO ME TORNAR UM INVESTIDOR
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
+           <Button
+  size="lg"
+  className="
+    bg-green-500 hover:bg-green-600 text-black font-bold
+    text-base sm:text-lg
+    px-4 py-2 sm:px-8 sm:py-4
+    rounded-full
+    whitespace-nowrap
+  "
+>
+  QUERO ME TORNAR UM INVESTIDOR
+  <ArrowRight className="ml-2 w-5 h-5" />
+</Button>
           </div>
         </div>
       </section>
@@ -767,13 +790,23 @@ export default function Home() {
             </div>
           </div>
 
-          <Button 
-            size="lg" 
-            className="bg-red-500 hover:bg-red-600 text-white font-bold text-xl px-12 py-6 rounded-full shadow-lg shadow-red-500/25 hover:shadow-red-500/40 transition-all duration-300 transform hover:scale-105 animate-pulse"
-          >
-            GARANTIR MINHA VAGA AGORA - ÚLTIMA CHANCE!
-            <ArrowRight className="ml-2 w-6 h-6" />
-          </Button>
+         <Button
+  size="lg"
+  className="
+    bg-red-500 hover:bg-red-600 text-white font-bold
+    text-base sm:text-lg md:text-xl
+    px-4 py-3 sm:px-8 sm:py-4 md:px-12 md:py-6
+    rounded-full
+    shadow-lg shadow-red-500/25 hover:shadow-red-500/40
+    transition-all duration-300 transform hover:scale-105
+    animate-pulse
+    whitespace-normal break-words text-center
+  "
+>
+  GARANTIR MINHA VAGA AGORA - ÚLTIMA CHANCE!
+  <ArrowRight className="ml-2 w-5 h-5" />
+</Button>
+
 
           <p className="text-gray-400 text-sm mt-4">
             ⚠️ Após o término da promoção, o preço aumentará para R$ 297,00
