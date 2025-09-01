@@ -250,7 +250,7 @@ export default function Home() {
     whitespace-nowrap
   "
 >
-  QUERO ME TORNAR UM INVESTIDOR
+  GARANTIR VAGA
   <ArrowRight className="ml-2 w-5 h-5" />
 </Button>
             <Badge className="bg-red-500 text-white px-3 py-1 rounded-full animate-pulse backdrop-blur-sm">
